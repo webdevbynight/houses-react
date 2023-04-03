@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;;
+}
+body {
+    font-family: sans-serif;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    width: clamp(28rem, 87.5vw, 50rem);
+    margin: 0 auto;
+}
+.card {
+    flex-basis: 20rem;
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.25);
+}
+.card h2 {
+    font-size: 1.8rem;
+}
+.card p {
+    font-size: 1.4rem;
+}
+.card p:last-child {
+    color: red;
+}
+.card p:last-child.available {
+    color: green;
+}

@@ -1,0 +1,1 @@
+This repository is an exercise for a workshop during a course at Wild Code School.
